@@ -11,7 +11,7 @@ body {
 }
 
 /*Styling for the navigation bar at the top of the webpage.*/
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -19,19 +19,19 @@ body {
 }
 
 /*Syling for the main header of the website 'Horiseon'.*/
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /*Styling for a specific set of words in the actual main header using span in html.*/
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /*Styling for the class named header but more specifically the div thats already
 inside another div that has a class named header.*/
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -41,13 +41,13 @@ inside another div that has a class named header.*/
 
 /*The styling digs deeper and goes within the unnordered list thats inside the div that
 is inside another div with a class named header.*/
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
 /*Styling gets even more specific and focuses on the list items inside the unordered
 list*/
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
